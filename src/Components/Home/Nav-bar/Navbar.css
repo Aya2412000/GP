@@ -1,6 +1,40 @@
+.container{
+  color: slategray;
+  opacity: 0.4;
+  width: 100%;
+}
+.Logo{
+  color: #ef6214;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.Logo:hover{
+  color: #fff;
+}
+.Nav:hover{
+  color:#ef6214;
+}
 .nav-box{
-  margin-left: 240px;
+  margin-left: 220px;
+}
+.nav-box li {
+  margin-left: 20px
+}
+.nav-box li a{
+  font-size: 1.7rem;
+  color: rgb(252, 252, 252);
+  text-decoration: none;
+}
+.form-search{
+  margin-left: 70px;
 }
 .in-search{
   margin-left: 10px;
+}
+.btn-search{
+outline:1px solid #ef6214;
+}
+.btn-search:hover{
+background-color: #ef6214;
 }
