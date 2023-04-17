@@ -43,7 +43,7 @@ export default function Services() {
             >
               {/* <img src={img} alt={alt} /> */}
               <FontAwesomeIcon className="icon" icon={faPlugCircleBolt} />
-              <p>{t("electrictiy")}</p>
+              <p>{t("electricity")}</p>
             </div>
           </div>
           <div class="col-md-2 col-6 mt-4">
@@ -56,7 +56,7 @@ export default function Services() {
             >
               {/* <img src={img} alt={alt} /> */}
               <FontAwesomeIcon className="icon" icon={faPlugCircleBolt} />
-              <p>{t("Carpentry")}</p>
+              <p>{t("carpentry")}</p>
             </div>
           </div>
           <div class="col-md-2 col-6 mt-4">
