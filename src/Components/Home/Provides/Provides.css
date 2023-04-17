@@ -1,0 +1,31 @@
+.services-is-provider {
+  padding: 6rem 0;
+  text-align: right;
+}
+.services-is-provider .provider-box {
+  background: #f6f6f6;
+  padding: 50px 20px;
+}
+.services-is-provider .provider-desc {
+  margin-top: 2rem;
+  width: 90%;
+}
+.services .services-is-provider .provider-desc h1 {
+  margin-bottom: 10px;
+}
+.services-is-provider .provider-desc p {
+  color: #575757;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.services-is-provider .provider-desc button {
+  background: #ef6214;
+  /* #d98d47 */
+  color: #fff;
+  padding: 10px 20px;
+  min-height: 48px;
+  border: 1px solid #5cbd76;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}

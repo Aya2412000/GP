@@ -1,7 +1,17 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: 'Cairo', sans-serif; */
-font-family: 'El Messiri', sans-serif;
+  font-family: "Cairo", sans-serif;
+  /* font-family: 'El Messiri', sans-serif; */
+}
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+}
+.Main-container {
+  width: 90%;
+  margin: auto;
 }

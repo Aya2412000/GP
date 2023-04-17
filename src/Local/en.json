@@ -1,0 +1,72 @@
+{
+  "navbar": "",
+
+  "LOGO": "Herfa",
+  "Services": "Servics",
+  "Who-us": "About Us",
+  "Contact-us": "Contact Us",
+  "Blog": "Blog",
+  "Search-placeholder": "search..!",
+  "Search-btn": "Search!",
+
+  "header": "",
+
+  "Professional": "Professional",
+  "craftsmen": "craftsmen",
+  "at the highest level": "at the highest level",
+  "Login": "Log In",
+  "Signup": "Sign Up",
+
+  "services": "",
+
+  "main-services": "Main Services",
+  "electricity": "Electricity",
+  "carpentry": "Carpentry",
+  "conditioning": "Conditioning",
+  "Cleaning service": "Cleaning service",
+  "Painting": "Painting",
+  "Plastering": "Plastering",
+  "Plumbing": "Plumbing",
+  "Satellite&Receiver": "Satellite & Receiver",
+  "Home Appliances": "Home Appliances",
+
+  "provider": "",
+
+  "Are you a craftsman?": "Are you a craftsman?",
+  "Become a service provider": "Become a service provider",
+  "text": "You can work with us, we will find you the jobs you want.",
+
+  "fooooter": "",
+
+  "Terms": "Terms",
+  "privacy": "privacy",
+  "functions": "functions",
+  "policies": "policies",
+  "Herfa Ownership": "Herfa Ownership © 2023 , All Rights Reserved",
+
+  "Sign client": "",
+
+  "Welcome to Herfa, register now": "Welcome to Herfa, register now!",
+  "first name": "frist name",
+  "last name": "last name",
+  "user name": "user name",
+  "phone number": "phone number",
+  "email": "email",
+  "address": "address",
+  "placeholder": "123 main st",
+  "city": "city",
+  "state": "state",
+  "choose": "choose..",
+  "zip": "zip",
+  "password": "password",
+  "register": "Register",
+
+  "LOGIN": "",
+
+  "Welcome to Herfa": "Welcome to Herfa",
+
+  "sign as provider": "",
+
+  "Register as a craft owner": "Register as a craft owner:",
+  "choose your craft": "choose your craft.."
+}

@@ -1,40 +1,52 @@
-.container{
+/* .container{
   color: slategray;
   opacity: 0.4;
   width: 100%;
+} */
+.nav-BG {
+  /* position: fixed; */
+  /* width: 90%; */
+  /* background-color: #a39d8f; */
+  /* background-color: transparent; */
+  background: linear-gradient(#a39d8f, #fff);
+  box-shadow: 4px 2px 3px #a39d8f;
 }
-.Logo{
+.Logo {
   color: #ef6214;
-    font-size: 2rem;
-    font-weight: bold;
-    text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
 }
-.Logo:hover{
+.Logo:hover {
   color: #fff;
 }
-.Nav:hover{
-  color:#ef6214;
+.Nav:hover {
+  color: #ef6214;
 }
-.nav-box{
+.nav-box {
   margin-left: 220px;
 }
 .nav-box li {
-  margin-left: 20px
+  margin-left: 20px;
 }
-.nav-box li a{
+.nav-box li a {
   font-size: 1.7rem;
   color: rgb(252, 252, 252);
+  /* color: #000; */
   text-decoration: none;
 }
-.form-search{
+.form-search {
   margin-left: 70px;
 }
-.in-search{
+.in-search {
   margin-left: 10px;
 }
-.btn-search{
-outline:1px solid #ef6214;
+.btn-search {
+  outline: 1px solid #ef6214;
 }
-.btn-search:hover{
-background-color: #ef6214;
+.btn-search:hover {
+  background-color: #ef6214;
+}
+.Lan {
+  margin: 0 5px;
 }
