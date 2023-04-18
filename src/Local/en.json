@@ -72,5 +72,15 @@
   "sign as provider": "",
 
   "Register as a craft owner": "Register as a craft owner:",
-  "choose your craft": "choose your craft.."
+  "choose your craft": "choose your craft..",
+
+  "Contact Us": "",
+
+  "Connect with us": "Connect with us",
+  "Welcome": "We are always happy to receive your inquiries and suggestions, send us a message and we will contact you as soon as possible.",
+  "Send us your message": "Send us your message",
+  "Name": "Name",
+  "subject": "subject",
+  "Write your message here": "Write your message here",
+  "send the message": "Send the message"
 }

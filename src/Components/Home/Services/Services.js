@@ -1,18 +1,15 @@
 import React from "react";
 import "./Services.css";
 import { useTranslation } from "react-i18next";
-
-// import ServicesItems from "./ServicesItems";
-// import { OurServicesDate } from "./ServicesData";
-import {
-  faBroom,
-  faFan,
-  faPaintbrush,
-  faPlugCircleBolt,
-  faSatelliteDish,
-  faWrench,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import img1 from "../../../Shared/assets/main-services/eco-house.png";
+import img2 from "../../../Shared/assets/main-services/woodworking.png";
+import img3 from "../../../Shared/assets/main-services/air-conditioning.png";
+import img4 from "../../../Shared/assets/main-services/cleaning.png";
+import img5 from "../../../Shared/assets/main-services/paint-roller.png";
+import img6 from "../../../Shared/assets/main-services/plastering.png";
+import img7 from "../../../Shared/assets/main-services/faucet.png";
+import img8 from "../../../Shared/assets/main-services/satellite-dish.png";
+import img9 from "../../../Shared/assets/main-services/electric-appliance.png";
 export default function Services() {
   const [t, i18n] = useTranslation();
 
@@ -41,8 +38,8 @@ export default function Services() {
               data-keyboard="false"
               data-backdrop="static"
             >
-              {/* <img src={img} alt={alt} /> */}
-              <FontAwesomeIcon className="icon" icon={faPlugCircleBolt} />
+              <img src={img1} alt="" className="icon" />
+              {/* <FontAwesomeIcon className="icon" icon={faPlugCircleBolt} /> */}
               <p>{t("electricity")}</p>
             </div>
           </div>
@@ -55,7 +52,8 @@ export default function Services() {
               data-backdrop="static"
             >
               {/* <img src={img} alt={alt} /> */}
-              <FontAwesomeIcon className="icon" icon={faPlugCircleBolt} />
+              <img src={img2} alt="" className="icon" />
+              {/* <FontAwesomeIcon className="icon" icon={faPlugCircleBolt} /> */}
               <p>{t("carpentry")}</p>
             </div>
           </div>
@@ -68,7 +66,8 @@ export default function Services() {
               data-backdrop="static"
             >
               {/* <img src={img} alt={alt} /> */}
-              <FontAwesomeIcon className="icon" icon={faFan} />
+              <img src={img3} alt="" className="icon" />
+              {/* <FontAwesomeIcon className="icon" icon={faFan} /> */}
               <p>{t("conditioning")}</p>
             </div>
           </div>
@@ -80,8 +79,9 @@ export default function Services() {
               data-keyboard="false"
               data-backdrop="static"
             >
+              <img src={img4} alt="" className="icon" />
               {/* <img src={img} alt={alt} /> */}
-              <FontAwesomeIcon className="icon" icon={faBroom} />
+              {/* <FontAwesomeIcon className="icon" icon={faBroom} /> */}
               <p>{t("Cleaning service")}</p>
             </div>
           </div>
@@ -93,8 +93,9 @@ export default function Services() {
               data-keyboard="false"
               data-backdrop="static"
             >
+              <img src={img5} alt="" className="icon" />
               {/* <img src={img} alt={alt} /> */}
-              <FontAwesomeIcon className="icon" icon={faPaintbrush} />
+              {/* <FontAwesomeIcon className="icon" icon={faPaintbrush} /> */}
               <p>{t("Painting")}</p>
             </div>
           </div>
@@ -106,8 +107,9 @@ export default function Services() {
               data-keyboard="false"
               data-backdrop="static"
             >
+              <img src={img6} alt="" className="icon" />
               {/* <img src={img} alt={alt} /> */}
-              <FontAwesomeIcon className="icon" icon={faPlugCircleBolt} />
+              {/* <FontAwesomeIcon className="icon" icon={faPlugCircleBolt} /> */}
               <p>{t("Plastering")}</p>
             </div>
           </div>
@@ -119,8 +121,9 @@ export default function Services() {
               data-keyboard="false"
               data-backdrop="static"
             >
+              <img src={img7} alt="" className="icon" />
               {/* <img src={img} alt={alt} /> */}
-              <FontAwesomeIcon className="icon" icon={faWrench} />
+              {/* <FontAwesomeIcon className="icon" icon={faWrench} /> */}
               <p>{t("Plumbing")}</p>
             </div>
           </div>
@@ -132,8 +135,9 @@ export default function Services() {
               data-keyboard="false"
               data-backdrop="static"
             >
+              <img src={img8} alt="" className="icon" />
               {/* <img src={img} alt={alt} /> */}
-              <FontAwesomeIcon className="icon" icon={faSatelliteDish} />
+              {/* <FontAwesomeIcon className="icon" icon={faSatelliteDish} /> */}
               <p>{t("Satellite&Receiver")}</p>
             </div>
           </div>
@@ -145,8 +149,9 @@ export default function Services() {
               data-keyboard="false"
               data-backdrop="static"
             >
+              <img src={img9} alt="" className="icon" />
               {/* <img src={img} alt={alt} /> */}
-              <FontAwesomeIcon className="icon" icon={faSatelliteDish} />
+              {/* <FontAwesomeIcon className="icon" icon={faSatelliteDish} /> */}
               <p>{t("Home Appliances")}</p>
             </div>
           </div>

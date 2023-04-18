@@ -8,6 +8,7 @@ import SignNewProvider from "./Components/Sign As Provider/SignNewProvider";
 import SignClient from "./Components/Sign Client/SignClient";
 import LOGIN from "./Components/LogIn/LOG/LOGIN";
 import LogIn from "./Components/LogIn/LogIn";
+import ContactUs from "./Components/Contact Us/ContactUs";
 export default function App() {
   return (
     <BrowserRouter>
@@ -16,6 +17,7 @@ export default function App() {
         <Route exact path="/signAsProvider" element={<SignNewProvider />} />
         <Route exact path="/signup" element={<SignClient />} />
         <Route exact path="/login" element={<LogIn />} />
+        <Route exact path="/contactUs" element={<ContactUs />} />
       </Routes>
     </BrowserRouter>
   );

@@ -7,10 +7,10 @@
   "Contact-us": "تواصل معنا",
   "Blog": "مدونتنا",
   "Search-placeholder": "بحث..!",
+  "Search-btn": "ابحث!",
 
   "header": "",
 
-  "Search-btn": "ابحث!",
   "Professional": "متخصصين",
   "craftsmen": "حِرفيين",
   "at the highest level": "علي أعلي مستوي",
@@ -72,5 +72,15 @@
   "sign as provider": "",
 
   "Register as a craft owner": "سجِّل كصاحب حِرفـة:",
-  "choose your craft": "اختر حِرفتك.."
+  "choose your craft": "اختر حِرفتك..",
+
+  "Contact Us": "",
+
+  "Connect with us": "تواصل معنا",
+  "Welcome": "يسعدنا تلقي استفساراتك واقتراحاتك دائمًا، أرسل لنا وسوف نتواصل معك في أقرب وقت.",
+  "Send us your message": "ابعت لنا رسالتك",
+  "Name": "الاسم",
+  "subject": "الموضوع",
+  "Write your message here": "اكتب رسالتك هنا",
+  "send the message": "ارسل رسالتك"
 }

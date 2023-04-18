@@ -46,7 +46,7 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="Nav" to="#">
+                  <Link className="Nav" to="/contactUs">
                     {t("Contact-us")}
                   </Link>
                 </li>

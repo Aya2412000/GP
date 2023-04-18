@@ -34,7 +34,7 @@ input {
   height: 2.5rem;
 }
 ::placeholder {
-  text-align: right;
+  text-align: inherit;
 }
 .btn-sign {
   background-color: #ef6114;
