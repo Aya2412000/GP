@@ -1,15 +1,18 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./Components/Main.css";
-import Home from "./Components/Home/Home";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import SignNewProvider from "./Components/Sign As Provider/SignNewProvider";
+import Home from "./Pages/Home/Home";
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import SignNewProvider from "./Pages/Sign As Provider/SignNewProvider";
+import Electricity from "./All-Services/Electricity/Electricity";
+import SignClient from "./Pages/Sign Client/SignClient";
 
-import SignClient from "./Components/Sign Client/SignClient";
-import LOGIN from "./Components/LogIn/LOG/LOGIN";
-import LogIn from "./Components/LogIn/LogIn";
-import ContactUs from "./Components/Contact Us/ContactUs";
+import LogIn from "./Pages/LogIn/LogIn";
+import ContactUs from "./Pages/Contact Us/ContactUs";
+import Profile from "./Pages/Profile/Profile";
+import { useEffect } from "react";
 export default function App() {
+
   return (
     <BrowserRouter>
       <Routes>
@@ -18,6 +21,8 @@ export default function App() {
         <Route exact path="/signup" element={<SignClient />} />
         <Route exact path="/login" element={<LogIn />} />
         <Route exact path="/contactUs" element={<ContactUs />} />
+        <Route exact path="/profile" element={<Profile />} />
+        <Route exact path="/electricity" element={<Electricity />} />
       </Routes>
     </BrowserRouter>
   );

@@ -2,12 +2,13 @@
   "navbar": "",
 
   "LOGO": "Herfa",
-  "Services": "Servics",
+  "Home": "Home",
   "Who-us": "About Us",
   "Contact-us": "Contact Us",
   "Blog": "Blog",
   "Search-placeholder": "search..!",
   "Search-btn": "Search!",
+  "Logout":"LogOut",
 
   "header": "",
 
@@ -29,6 +30,7 @@
   "Plumbing": "Plumbing",
   "Satellite&Receiver": "Satellite & Receiver",
   "Home Appliances": "Home Appliances",
+  "Cars maintance":"Cars maintance",
 
   "map": "",
 

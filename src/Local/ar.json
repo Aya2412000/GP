@@ -2,12 +2,13 @@
   "navbar": "",
 
   "LOGO": "حِــرفه",
-  "Services": "الخدمات",
+  "Home": "الرئيسية",
   "Who-us": "من نحن",
   "Contact-us": "تواصل معنا",
   "Blog": "مدونتنا",
   "Search-placeholder": "بحث..!",
   "Search-btn": "ابحث!",
+  "Logout": "تسجيل الخروج",
 
   "header": "",
 
@@ -29,6 +30,7 @@
   "Plumbing": "السباكة",
   "Satellite&Receiver": "الدِش والريسيفر",
   "Home Appliances": "أجهزة منزلية",
+  "Cars maintance": "صيانية السيارات",
 
   "map": "",
 
