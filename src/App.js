@@ -10,9 +10,10 @@ import SignClient from "./Pages/Sign Client/SignClient";
 import LogIn from "./Pages/LogIn/LogIn";
 import ContactUs from "./Pages/Contact Us/ContactUs";
 import Profile from "./Pages/Profile/Profile";
-import { useEffect } from "react";
-export default function App() {
+import TimeTable from "./Components/TimeTable/TimeTable";
+import ContactUsProfile from "./Pages/Profile/Contact Us/ContactUsProfile";
 
+export default function App() {
   return (
     <BrowserRouter>
       <Routes>
@@ -22,7 +23,9 @@ export default function App() {
         <Route exact path="/login" element={<LogIn />} />
         <Route exact path="/contactUs" element={<ContactUs />} />
         <Route exact path="/profile" element={<Profile />} />
+        <Route exact path="/contactUsProfile" element={<ContactUsProfile />} />
         <Route exact path="/electricity" element={<Electricity />} />
+        <Route exact path="/timetable" element={<TimeTable />} />
       </Routes>
     </BrowserRouter>
   );
