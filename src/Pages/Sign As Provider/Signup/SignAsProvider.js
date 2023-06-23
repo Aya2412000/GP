@@ -1,14 +1,38 @@
-import React from "react";
-import  "./SignAsProvider.css";
+import React, { useState } from "react";
+import "./SignAsProvider.css";
 import { useTranslation } from "react-i18next";
+import axios from "axios";
 export default function SignAsProvider() {
   const [t, i18n] = useTranslation();
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [address, setAddress] = useState("");
+  const [email, setEmail] = useState("");
+  const [craft, setCraft] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const RegisterNow = async (e) => {
+    e.preventDefault();
+    await axios.post("http://localhost/services/create.php", {
+      username,
+      password,
+      firstName,
+      lastName,
+      email,
+      address,
+      craft,
+      phoneNumber,
+    });
+    alert("Admin created");
+  };
+
   return (
     <div className="container con">
       <h1>{t("Register as a craft owner")}</h1>
       <div className="h-Line"></div>
       <div className=" form-container">
-        <form className="signProviderForm">
+        <form className="signProviderForm" onSubmit={RegisterNow}>
           <div className="row">
             <div class="col">
               <label for="first-name" className="form-label">
@@ -18,6 +42,7 @@ export default function SignAsProvider() {
                 type="text"
                 class="form-control"
                 aria-label="First name"
+                onChange={(e) => setFirstName(e.target.value)}
                 required
               />
             </div>
@@ -29,6 +54,7 @@ export default function SignAsProvider() {
                 type="text"
                 class="form-control"
                 aria-label="Last name"
+                onChange={(e) => setLastName(e.target.value)}
                 required
               />
             </div>
@@ -46,6 +72,7 @@ export default function SignAsProvider() {
                 class="form-control"
                 id="validationCustomUsername"
                 aria-describedby="inputGroupPrepend"
+                onChange={(e) => setUsername(e.target.value)}
                 required
               />
               <div class="invalid-feedback">Please choose a username.</div>
@@ -59,12 +86,13 @@ export default function SignAsProvider() {
 
             <input
               type="tel"
-              pattern="[0-9]{01}"
+              // pattern="[0-9]{01}"
               class="form-control"
               id="Phone-num"
               style={{ width: "270px" }}
               aria-label="Sizing example input"
               aria-describedby="inputGroup-sizing-default"
+              onChange={(e) => setPhoneNumber(e.target.value)}
               required
             />
           </div>
@@ -77,6 +105,7 @@ export default function SignAsProvider() {
               className="form-control"
               id="email"
               // style={{ width: "270px" }}
+              onChange={(e) => setEmail(e.target.value)}
               required
             />
           </div>
@@ -90,6 +119,7 @@ export default function SignAsProvider() {
               class="form-control"
               id="inputAddress"
               placeholder={t("placeholder")}
+              onChange={(e) => setAddress(e.target.value)}
               required
             />
           </div>
@@ -150,6 +180,7 @@ export default function SignAsProvider() {
               className="form-control"
               id="Password1"
               style={{ width: "270px" }}
+              onChange={(e) => setPassword(e.target.value)}
               required
             />
           </div>
@@ -158,9 +189,7 @@ export default function SignAsProvider() {
             className="form-select mb-3"
             aria-label="Default select example"
             style={{ width: "270px" }}
-            onChange={(e) => {
-              console.log(e.target.value);
-            }}
+            onChange={(e) => setCraft(e.target.value)}
           >
             <option selected> {t("choose your craft")}</option>
             <option value="electricity">{t("electricity")}</option>

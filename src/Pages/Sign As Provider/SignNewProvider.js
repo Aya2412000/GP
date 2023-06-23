@@ -6,18 +6,16 @@ import Footer from "../../Components/Footer/Footer";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 export default function SignNewProvider() {
-
-
-    const location = useLocation();
-    useEffect(() => {
-      switch (location.pathname) {
-        case "/signAsProvider":
-          document.getElementById("title").innerHTML = "Sign As Provider";
-          break;
-        default:
-          document.getElementById("title").innerHTML = "React";
-      }
-    }, [location]);
+  const location = useLocation();
+  useEffect(() => {
+    switch (location.pathname) {
+      case "/signAsProvider":
+        document.getElementById("title").innerHTML = "Sign As Provider";
+        break;
+      default:
+        document.getElementById("title").innerHTML = "React";
+    }
+  }, [location]);
   return (
     <div>
       <Navbar />
