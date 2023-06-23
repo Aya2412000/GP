@@ -20,6 +20,10 @@ section.services-section .container {
     align-items: center;
     gap: 20px;
 }
+.cards{
+    width: 95%;
+    margin: auto;
+}
 section.services-section .parent-of-requests-popub {
     position: fixed;
     top: 0;

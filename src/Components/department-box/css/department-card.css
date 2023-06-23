@@ -21,6 +21,8 @@
 }
 .card:hover{
     transform : scale(0.8);
+    transition: 0.9s all;
+
 }
 .card img {
     position: relative;
